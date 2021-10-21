@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OUSL</title>
+
+    <style type="text/css">
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(180, 211, 230);
+        }
+
+        h1, h2, h3, p, ul, img {
+            margin: 0rem;
+        }
+
+        h2 {
+            font-size: large;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        p {
+            font-size: medium;
+            color: rgb(71, 71, 71);
+        }
+
+        ul {
+            color: rgb(71, 71, 71);
+        }
+
+        .container {
+            margin: 2rem 0 2rem 0;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 1rem;
+            width: 40rem;
+            padding: 2rem;
+            background-color: white;
+        }
+
+        .banner {
+            width: 100px;
+            
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .titleBand {
+            text-align: center;
+            margin-top: .5rem;
+            margin-bottom: 1rem;
+        }
+
+        .lineBreak {
+            margin-top: .5rem;
+            margin-bottom: .5rem;
+            border-top: 1.5px solid rgb(219, 219, 219);
+        }
+
+        .mainTitle {
+            font-weight: 100;
+        }
+
+        .subTitle {
+            font-size: medium;
+            color: rgb(78, 78, 78);
+        }
+
+        .map {
+            margin-top: 1rem;
+            border-radius: 0.5rem;
+            left: 50%;
+            width: 40rem;
+            box-shadow: 2px 8px 10px rgba(0, 0, 0, 0.1);
+            transform: scale(100%);
+            transition: all 0.5s ease;
+        }
+
+        .map:hover {
+            border-radius: 0.5rem;
+            box-shadow: 2px 10px 25px rgba(0, 0, 0, 0.25);
+            cursor: crosshair;
+            transform: scale(120%);
+        }
+
+        .footer {
+            margin: 2rem 0rem 0rem 0rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .notice {
+            font-size: small;
+            color: dodgerblue;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <img class="banner" src="./emblem.png" alt="OUSL Banner">
+            <div class="titleBand">
+                <h1 class="mainTitle">The Open University Of Sri Lanka</h1>
+                <h3 class="subTitle">The leading public university for self-directed individuals</h3>
+            </div>
+        </div>
+
+        <div class="lineBreak"></div>
+
+        <h2>Vision</h2>
+        <p>To attain excellence in life-changing education by providing equitable learning opportunities</p>
+
+        <h2>Mission</h2>
+        <p>To provide lifelong learning opportunities through Open, Distance and Flexible Education with a commitment to excellence in teaching and research</p>
+
+        <h2>Faculties</h2>
+        <ul>
+            <li>Education</li>
+            <li>Engineering Technology</li>
+            <li>Health Sciences</li>
+            <li>Humanities and Social Sciences</li>
+            <li>Natural Sciences</li>
+            <li>Management Studies</li>
+        </ul>
+
+        <h2>Location</h2>
+        <a href="https://goo.gl/maps/dNutxuAwxx3yNZqx6">
+            <img class="map" title="Click to navigate to OUSL" src="./map.png" alt="OUSL Location">
+        </a>
+
+        <div class="footer">
+            <p class="notice">All Rights Reserved. Designed by T.D.B Saranga. S19002514. BSE Hons Programme.</p>
+        </div>
+    </div>
+</body>
+</html>
