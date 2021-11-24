@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Data Science",
+        "duration": "12 months",
+        "startDate": "1/9/2021",
+        "totalFees": "Rs. 200,000.00",
+        "discounts": "",
+        "type": "Diploma"
+    },
+    {
+        "name": "Cloud Computing",
+        "duration": "8 months",
+        "startDate": "15/9/2021",
+        "totalFees": "Rs. 175,000.00",
+        "discounts": "5%",
+        "type": "Diploma"
+    },
+    {
+        "name": "Cyber Security",
+        "duration": "12 months",
+        "startDate": "1/10/2021",
+        "totalFees": "Rs. 150,000.00",
+        "discounts": "10%",
+        "type": "Higher Diploma"
+    },
+    {
+        "name": "DevOps",
+        "duration": "12 months",
+        "startDate": "1/9/2021",
+        "totalFees": "Rs. 250,000.00",
+        "discounts": "",
+        "type": "Diploma"
+    },
+    {
+        "name": "IoT",
+        "duration": "8 months",
+        "startDate": "20/9/2021",
+        "totalFees": "Rs. 150,000.00",
+        "discounts": "15%",
+        "type": "Higher Diploma"
+    },
+    {
+        "name": "AI & ML",
+        "duration": "8 months",
+        "startDate": "15/9/2021",
+        "totalFees": "Rs. 250,000.00",
+        "discounts": "",
+        "type": "Diploma"
+    },
+    {
+        "name": "Full Stack",
+        "duration": "9 months",
+        "startDate": "1/9/2021",
+        "totalFees": "Rs. 175,000.00",
+        "discounts": "",
+        "type": "Diploma"
+    },
+    {
+        "name": "Ethical Hacking",
+        "duration": "12 months",
+        "startDate": "15/9/2021",
+        "totalFees": "Rs. 1500,000.00",
+        "discounts": "15%",
+        "type": "Diploma"
+    }
+]

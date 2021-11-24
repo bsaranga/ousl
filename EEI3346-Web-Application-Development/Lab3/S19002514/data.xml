@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="styles.css" ?> 
+<courses>
+    <headerRow>
+        <column>Courses</column>
+        <column>Duration</column>
+        <column>Start Date</column>
+        <column>Total Fees</column>
+        <column>Discounts</column>
+        <column>Diploma/Higher Diploma</column>
+    </headerRow>
+    <course>
+        <name>Data Science</name>
+        <duration>12 months</duration>
+        <startDate>1/9/2021</startDate>
+        <totalFees>Rs. 200,000.00</totalFees>
+        <discounts></discounts>
+        <type>Diploma</type>
+    </course>
+    <course>
+        <name>Cloud Computing</name>
+        <duration>8 months</duration>
+        <startDate>15/9/2021</startDate>
+        <totalFees>Rs. 175,000.00</totalFees>
+        <discounts>5%</discounts>
+        <type>Diploma</type>
+    </course>
+    <course>
+        <name>Cyber Security</name>
+        <duration>12 months</duration>
+        <startDate>1/10/2021</startDate>
+        <totalFees>Rs. 150,000.00</totalFees>
+        <discounts>10%</discounts>
+        <type>Higher Diploma</type>
+    </course>
+    <course>
+        <name>Dev Ops</name>
+        <duration>12 months</duration>
+        <startDate>1/9/2021</startDate>
+        <totalFees>Rs. 250,000.00</totalFees>
+        <discounts></discounts>
+        <type>Diploma</type>
+    </course>
+    <course>
+        <name>IoT</name>
+        <duration>8 months</duration>
+        <startDate>20/9/2021</startDate>
+        <totalFees>Rs. 150,000.00</totalFees>
+        <discounts>15%</discounts>
+        <type>Higher Diploma</type>
+    </course>
+    <course>
+        <name>AI &amp; ML</name>
+        <duration>8 months</duration>
+        <startDate>15/9/2021</startDate>
+        <totalFees>Rs. 250,000.00</totalFees>
+        <discounts></discounts>
+        <type>Diploma</type>
+    </course>
+    <course>
+        <name>Full Stack</name>
+        <duration>9 months</duration>
+        <startDate>1/9/2021</startDate>
+        <totalFees>Rs. 175,000.00</totalFees>
+        <discounts></discounts>
+        <type>Diploma</type>
+    </course>
+    <course>
+        <name>Ethical Hacking</name>
+        <duration>12 months</duration>
+        <startDate>15/9/2021</startDate>
+        <totalFees>Rs. 1500,000.00</totalFees>
+        <discounts>15%</discounts>
+        <type>Diploma</type>
+    </course>
+</courses>

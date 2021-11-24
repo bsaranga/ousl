@@ -1,0 +1,27 @@
+root {
+    background-color: rgb(163, 207, 120);
+}
+
+container {
+    margin: 5px;
+}
+
+xmlTutorial {
+    display: block;
+    font-size: x-large;
+}
+
+xmlTutorialLink {
+    display: block;
+    font-style: italic;
+}
+
+htmlTutorial{
+    display: block;
+    font-size: x-large;
+}
+
+htmlTutorialLink {
+    display: block;
+    font-style: italic;
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Globe [
+    <!ELEMENT Globe (Country+)>
+    <!ELEMENT Country (Name, AreaWidth, Capital)>
+    <!ATTLIST Country code CDATA #IMPLIED>
+    <!ATTLIST Country postalCode CDATA #IMPLIED>
+    <!ELEMENT Name (#PCDATA)>
+    <!ELEMENT AreaWidth (#PCDATA)>
+    <!ELEMENT Capital (#PCDATA)>
+]>
+<Globe>
+    <Country code="2003">
+        <Name>United States Of America</Name>
+        <AreaWidth>50,000</AreaWidth>
+        <Capital>Washington, D.C</Capital>
+    </Country>
+    <Country>
+        <Name>Canada</Name>
+        <AreaWidth>1,00000</AreaWidth>
+        <Capital>Ottawa</Capital>
+    </Country>
+    <Country code="2003" postalCode="00005">
+        <Name>Norway</Name>
+        <AreaWidth>60,000</AreaWidth>
+        <Capital>Oslo</Capital>
+    </Country>
+    <Country>
+        <Name>Singapore</Name>
+        <AreaWidth>65,000</AreaWidth>
+        <Capital>Singapore</Capital>
+    </Country>
+    <Country>
+        <Name>England</Name>
+        <AreaWidth>15000</AreaWidth>
+        <Capital>London</Capital>
+    </Country>
+</Globe>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="second.css" ?>
+
+<root>
+    <container xmlns:xlink="http://www.w3.org/1999/xlink">
+        <xmlTutorial>XML Tutorial</xmlTutorial>
+        <xmlTutorialLink xlink:type="simple" xlink:href="http://www.quackit.com/xml/tutorial" xlink:show="new">http://www.quackit.com/xml/tutorial</xmlTutorialLink>
+        <htmlTutorial>HTML Tutorial</htmlTutorial>
+        <htmlTutorialLink xlink:type="simple" xlink:href="http://www.quackit.com/html/tutorial" xlink:show="new">http://www.quackit.com/html/tutorial</htmlTutorialLink>
+    </container>
+</root>

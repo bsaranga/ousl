@@ -1,0 +1,26 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+courses {
+    display: table;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+course {
+    display: table-row;
+    background-color: rgb(169, 209, 231);
+}
+
+headerRow {
+    display: table-row;
+    background-color: rgb(136, 204, 136);
+    font-weight: bold;
+    font-size: large;
+}
+
+column, name, duration, startDate, totalFees, discounts, type {
+    display: table-cell;
+    border: 1px solid black;
+}
